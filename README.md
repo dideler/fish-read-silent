@@ -17,6 +17,14 @@ fisher install dideler/fish-read-silent
 omf install https://github.com/dideler/fish-read-silent
 ```
 
+### Usage
+
+```
+read_silent --help
+read_silent secret
+read_silent --prompt="Secret ▶ " secret
+```
+
 
 [fisherman]: https://github.com/fisherman/fisherman
 [oh-my-fish]: https://github.com/oh-my-fish/oh-my-fish
